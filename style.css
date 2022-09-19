@@ -56,25 +56,38 @@ p {
     text-align: justify;
 }
 
-.twitter {
+.twitter a {
+    display: block;
     background-color: #1da1f2;
     text-align: center;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
-}
-
-.facebook {
-    background-color: #3b5998;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-a {
     color: white;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.facebook a {
+    display: block;
+    background-color: #3b5998;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.twitter a:hover {
+    background-color: #0b7bc1;
+}
+
+.facebook a:hover {
+    background-color: #2b406e;
 }
